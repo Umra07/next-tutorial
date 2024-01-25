@@ -1,6 +1,11 @@
+import { Metadata } from 'next';
 import SideNav from '../ui/dashboard/sidenav';
 
 import { FC, ReactNode } from 'react';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 interface LayoutProps {
   children: ReactNode;
